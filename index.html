@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciervo Rojo</title>
+    <style>
+        @font-face {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            src: url(fonts/lsansuni.ttf);
+        }
+        @font-face {
+            font-family: BlackMango-Regular ;
+            src: url(fonts/BlackMango-Regular.ttf);
+        }
+    </style>
+    <style>
+        .centrado {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 90vh;
+            padding: 0;
+        }
+        .text {
+            color: #f7b4c4;
+            font-family: BlackMango-Regular;
+        }
+        @media (max-width: 600px) {
+            .-grande {
+                font-size: 36px !important;
+            }
+            .-chico {
+                font-size: 26px !important;
+            }
+        }
+        .-grande {
+            font-size: 58px;
+        }
+        .-chico{
+            font-size: 40px;
+        }
+    </style>        
+<body style="background-color: #005dde;">
+    <div class="centrado vertical-center">
+        <div class="text -grande">Proximamente...</div>
+        <img src="img/logo.png" class="ciervo" />
+        <div class="text -chico">Diseñadoras creando...</div>
+    </div>
+</body>
+</html>
